@@ -1,0 +1,23 @@
+{
+  "name": "aplikasi-e-wallet-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.9.2",
+    "@iconify-json/material-symbols": "^1.2.100",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^10.0.7",
+    "prettier": "^3.10.1",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.3.5"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5"
+  }
+}
