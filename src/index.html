@@ -1,14 +1,97 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <title>A-Wallets</title>
   </head>
-  <body>
-    <section
-      class="container bg-blue-500 h-32 mx-auto my-10 rounded-2xl shadow-2xl"
-    ></section>
+  <body class="bg-blue-50 antialiased">
+    <div class="mx-auto min-h-screen max-w-[768px] bg-blue-50">
+      <!-- App Bar -->
+      <header
+        class="sticky top-0 z-20 border-b border-blue-100/70 bg-white/80 backdrop-blur-md"
+      >
+        <div class="flex h-16 items-center justify-between px-3">
+          <!-- Back -->
+          <a
+            href="#"
+            aria-label="Kembali"
+            class="group flex size-10 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 ring-1 ring-blue-100 transition-all duration-200 hover:bg-blue-600 hover:text-white hover:shadow-md hover:shadow-blue-600/30 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+          >
+            <span
+              class="icon-[material-symbols--arrow-back-rounded] size-6 transition-transform duration-200 group-hover:-translate-x-0.5"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <!-- Title -->
+          <div class="min-w-0 flex-1 px-3 text-center">
+            <h1
+              class="truncate text-base font-bold tracking-tight text-gray-900"
+            >
+              Untitled
+            </h1>
+            <p class="truncate text-xs font-medium text-gray-400">A-Wallets</p>
+          </div>
+
+          <!-- Action -->
+          <button
+            type="button"
+            aria-label="Menu lainnya"
+            class="flex size-10 items-center justify-center rounded-2xl text-gray-500 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+          >
+            <span
+              class="icon-[material-symbols--more-vert] size-6"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </div>
+      </header>
+      <!-- ./App Bar -->
+      <!-- nav bar -->
+      <div class="m-5 p-2 flex bg-white justify-evenly">
+        <a
+          href="#"
+          class="w-full group flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-green-400 p-3 text-gray-900 hover:bg-gray-50"
+        >
+          <span
+            class="icon-[material-symbols--home-outline-rounded] size-6 inline group-hover:hidden"
+          ></span>
+          <span
+            class="icon-[material-symbols--home] size-6 hidden group-hover:inline"
+          ></span>
+          <span class="text-xs font-semibold">Beranda</span>
+          <span></span>
+        </a>
+        <a
+          href="#"
+          class="w-full group flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-green-400 p-3 text-gray-900 hover:bg-gray-50"
+        >
+          <span
+            class="icon-[material-symbols--receipt-outline-rounded] size-6 inline group-hover:hidden"
+          ></span>
+          <span
+            class="icon-[material-symbols--receipt] size-6 hidden group-hover:inline"
+          ></span>
+          <span class="text-xs font-semibold">Riwayat</span>
+          <span></span>
+        </a>
+        <a
+          href="#"
+          class="w-full group flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-green-400 p-3 text-gray-900 hover:bg-gray-50"
+        >
+          <span
+            class="icon-[material-symbols--person-outline-rounded] size-6 inline group-hover:hidden"
+          ></span>
+          <span
+            class="icon-[material-symbols--person] size-6 hidden group-hover:inline"
+          ></span>
+          <span class="text-xs font-semibold">Akun</span>
+          <span></span>
+        </a>
+      </div>
+      <!-- ./nav bar -->
+    </div>
   </body>
 </html>
